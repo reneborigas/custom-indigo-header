@@ -2,8 +2,8 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 var messages = defineMessages({
   'header.links.courses': {
     id: 'header.links.courses',
-    defaultMessage: 'Courses',
-    description: 'Link to the learner course dashboard'
+    defaultMessage: 'Mockboards',
+    description: 'Link to the learner mockboard dashboard'
   },
   'header.links.programs': {
     id: 'header.links.programs',
