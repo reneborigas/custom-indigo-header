@@ -2,7 +2,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 var messages = defineMessages({
   'header.links.courses': {
     id: 'header.links.courses',
-    defaultMessage: 'Courses',
+    defaultMessage: 'Mockboards',
     description: 'Link to the learner course dashboard'
   },
   'header.links.programs': {
@@ -12,7 +12,7 @@ var messages = defineMessages({
   },
   'header.links.content.search': {
     id: 'header.links.content.search',
-    defaultMessage: 'Discover New',
+    defaultMessage: 'Discover News',
     description: 'Link to the content search page'
   },
   'header.links.schools': {
