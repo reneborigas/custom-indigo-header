@@ -2,8 +2,8 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 var messages = defineMessages({
   'header.links.courses': {
     id: 'header.links.courses',
-    defaultMessage: 'Mockboards',
-    description: 'Link to the learner mockboard dashboard'
+    defaultMessage: 'Courses',
+    description: 'Link to the learner course dashboard'
   },
   'header.links.programs': {
     id: 'header.links.programs',
@@ -19,11 +19,6 @@ var messages = defineMessages({
     id: 'header.links.schools',
     defaultMessage: 'Schools & Partners',
     description: 'Link to the schools and partners landing page'
-  },
-  'header.user.theme': {
-    id: 'header.user.theme',
-    defaultMessage: 'Toggle Theme',
-    description: 'Toggle between light and dark theme'
   },
   'header.user.menu.dashboard': {
     id: 'header.user.menu.dashboard',

@@ -1,6 +1,6 @@
 {
   "name": "@edly-io/indigo-frontend-component-header",
-  "version": "3.4.0",
+  "version": "3.2.2",
   "description": "The standard header for Open edX",
   "main": "dist/index.js",
   "publishConfig": {
@@ -82,6 +82,5 @@
     "branches": [
       "sumac/indigo"
     ]
-  },
-  "keywords": []
+  }
 }

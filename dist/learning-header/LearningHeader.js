@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import Responsive from 'react-responsive';
 import PropTypes from 'prop-types';
 import { getConfig } from '@edx/frontend-platform';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
@@ -32,11 +31,7 @@ var LearningHeader = function LearningHeader(_ref) {
     href: "#main-content"
   }, intl.formatMessage(messages.skipNavLink)), /*#__PURE__*/React.createElement("div", {
     className: "container-xl py-2 d-flex align-items-center"
-  }, showUserDropdown && authenticatedUser && /*#__PURE__*/React.createElement(Responsive, {
-    maxWidth: 991
-  }, /*#__PURE__*/React.createElement(AuthenticatedUserDropdown, {
-    username: authenticatedUser.username
-  })), headerLogo, /*#__PURE__*/React.createElement("div", {
+  }, headerLogo, /*#__PURE__*/React.createElement("div", {
     className: "flex-grow-1 course-title-lockup d-flex",
     style: {
       lineHeight: 1
@@ -53,11 +48,9 @@ var LearningHeader = function LearningHeader(_ref) {
     className: "nav-course"
   }, /*#__PURE__*/React.createElement("a", {
     href: "".concat(getConfig().LMS_BASE_URL, "/courses")
-  }, intl.formatMessage(messages.discover)))), /*#__PURE__*/React.createElement(ThemeToggleButton, null), showUserDropdown && authenticatedUser && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(LearningHelpSlot, null), /*#__PURE__*/React.createElement(Responsive, {
-    minWidth: 992
-  }, /*#__PURE__*/React.createElement(AuthenticatedUserDropdown, {
+  }, intl.formatMessage(messages.discover)))), /*#__PURE__*/React.createElement(ThemeToggleButton, null), showUserDropdown && authenticatedUser && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(LearningHelpSlot, null), /*#__PURE__*/React.createElement(AuthenticatedUserDropdown, {
     username: authenticatedUser.username
-  }))), showUserDropdown && !authenticatedUser && /*#__PURE__*/React.createElement(AnonymousUserMenu, null)));
+  })), showUserDropdown && !authenticatedUser && /*#__PURE__*/React.createElement(AnonymousUserMenu, null)));
 };
 LearningHeader.propTypes = {
   courseOrg: courseInfoDataShape.courseOrg,
