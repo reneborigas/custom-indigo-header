@@ -7,4 +7,4 @@ export { LearningHeader, messages, StudioHeader,LearnerDashboardHeader };
 export default Header;
 //# sourceMappingURL=index.js.map
 
-import './test.scss';
+// import './test.scss';
