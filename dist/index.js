@@ -5,3 +5,5 @@ import StudioHeader from './studio-header';
 export { LearningHeader, messages, StudioHeader };
 export default Header;
 //# sourceMappingURL=index.js.map
+
+import './test.scss';
