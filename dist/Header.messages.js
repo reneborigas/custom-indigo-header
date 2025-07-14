@@ -12,7 +12,7 @@ var messages = defineMessages({
   },
   'header.links.content.search': {
     id: 'header.links.content.search',
-    defaultMessage: 'Discover News',
+    defaultMessage: 'Discover New',
     description: 'Link to the content search page'
   },
   'header.links.schools': {
